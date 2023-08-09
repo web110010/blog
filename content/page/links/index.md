@@ -1,10 +1,14 @@
 ---
 title: Links
 links:
-  - title: GitHub
-    description: GitHub is the world's largest software development platform.
-    website: https://github.com
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+  - title: My Pixelfed Instance
+    description: Free and open-source image sharing social network service
+    website: https://pictogram.social/
+    image: https://pictogram.social/img/pixelfed-icon-color.svg
+  - title: My Lemmy Instance
+    description: Free and open-source software for running self-hosted social news aggregation and discussion forums.
+    website: https://110010.win
+    image: https://110010.win/pictrs/image/15730812-35bf-4e72-9ad2-57259c568d7a.webp?format=webp
 menu:
     main: 
         weight: 4
@@ -14,20 +18,4 @@ menu:
 comments: false
 ---
 
-To use this feature, add `links` section to frontmatter.
-
-This page's frontmatter:
-
-```yaml
-links:
-  - title: GitHub
-    description: GitHub is the world's largest software development platform.
-    website: https://github.com
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
-  - title: TypeScript
-    description: TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
-    website: https://www.typescriptlang.org
-    image: ts-logo-128.jpg
-```
-
-`image` field accepts both local and external images.
+A links to few other websites I am involved in the operations of.
