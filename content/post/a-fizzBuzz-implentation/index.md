@@ -90,14 +90,14 @@ func main(){
 func fizz_buzz(numfb []NumString, rf int, rl int){
 	var tempstr string = "" 
 	for i:= rf; i <= rl; i++{
-		for _, element := range numfb{ // Go over all Relations and check divisibility
+		for _, element := range numfb{ 
 			if i%element.num == 0 {
 				tempstr += element.txt
 			}
 		}
 		if tempstr == "" {
-			fmt.Println(i) // Print number if no divisibility
-		} else { // Otherwise Print mapped txt
+			fmt.Println(i) 
+		} else {
 			fmt.Println(tempstr)
 			tempstr = ""
 		}
